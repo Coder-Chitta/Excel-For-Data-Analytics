@@ -34,6 +34,7 @@ Macros are sets of instructions that automate repetitive tasks in Excel. You can
 These are some basic information what Excel have again it's not the whole information. With going forward you will get to know more about Excel.
 
 # Here's a brief explanation of the different bars in Excel:
+![alt text]("C:\Users\HP\Pictures\Saved Pictures\parts-of-ms-excel-window.png")
 
 ### Title Bar: 
 The Title Bar is located at the very top of the Excel window and displays the name of the current workbook.
