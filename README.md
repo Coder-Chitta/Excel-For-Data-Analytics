@@ -93,7 +93,7 @@ Conditional Formatting allows you to apply formatting to cells based on specific
 
 These are some additional items in Excel that can help you work efficiently and effectively with your data.
 
-#### The number of rows and columns in an Excel spreadsheet depends on the version of Excel you are using, but here is some general information:
+# The number of rows and columns in an Excel spreadsheet depends on the version of Excel you are using, but here is some general information:
 
 - In Excel 2007, 2010, 2013, and 2016, there are 1,048,576 rows and 16,384 columns.
 - In Excel 2019 and Microsoft 365, there are 1,048,576 rows and 32,767 columns.
