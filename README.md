@@ -1,5 +1,5 @@
 # Excel-For-Data-Analytics
-## Excel workbook is a collection of worksheets that are stored in a file. Here are some of the things that you may see in an Excel workbook:
+### Excel workbook is a collection of worksheets that are stored in a file. Here are some of the things that you may see in an Excel workbook:
 
 Before Learning Excel Let's Learn Some Basic Things About Excel Workbooks
 
