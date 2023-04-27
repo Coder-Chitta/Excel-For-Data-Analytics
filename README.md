@@ -138,3 +138,51 @@ These are some additional items in Excel that can help you work efficiently and 
 - In Excel 2007, 2010, 2013, and 2016, there are 1,048,576 rows and 16,384 columns.
 - In Excel 2019 and Microsoft 365, there are 1,048,576 rows and 32,767 columns.
 - In older versions of Excel, such as Excel 97-2003, the number of rows is limited to 65,536 and the number of columns is limited to 256.
+
+### Different Data Types in Excel:
+
+##### Excel recognizes 4 different data types: Text, Number, Boolean & Formula. Anything you type into Excel will fall under one of these.
+
+- Text: 
+Whenever you type alphabets, or a mix of alphabets and numbers into Excel (without proceeding with =), everything is recognized as text. By default, Excel aligns text
+to the left of the cell.
+
+- Number: 
+If all you type into a cell are digits, they are recognized as Number by Excel. By default, Excel aligns number to the right.
+
+- Boolean: 
+FALSE and TRUE are Boolean entries. You’ll hardly use them. They are used for setting up complex formulas. By default, whenever you type false or true in a cell,
+Excel will put it in upper case and align it to the center.
+
+- Date/Time: 
+This data type is used to store date and time values. Excel stores date values as serial numbers, with January 1, 1900 as the starting date (serial number 1). Time values are stored as decimal fractions of a day.
+
+- Currency: 
+This data type is used to store monetary values with a specified currency symbol.
+
+- Percentage: 
+This data type is used to store values as percentages.
+
+- Boolean: 
+This data type is used to store logical values, such as "TRUE" or "FALSE". These values are used in conditional statements and calculations.
+
+- Error: 
+This data type is used to indicate an error in a formula or calculation.
+
+- Array: 
+This data type is used to store multiple values in a single cell. Array formulas are used to perform calculations on multiple cells at once.
+
+- Formula: 
+Once you begin a cell entry with =, Excel treats everything you type after as a formula.
+
+![alt text](https://cdn.ablebits.com/_img-blog/istext/nontext-function-excel.png)
+
+The practical importance of this is that if you receive a sales report in Excel and the numbers are aligned to left instead of right you should be concerned. There are three reasons this can happen and two of those reasons will cause some of your mathematical formulas to not work correctly. You wouldn’t want to do an incorrect analysis, so it’s best to check why the numbers are aligned to the left and not to the right as expected.
+
+- 1. It could be that the author forced the numbers to align to the left. To find out if that’s the reason, check the alignment under Home menu.
+- 2. It could be that the author forced the number to be treated as text by setting the cell format to text.
+- 3. It could be that the author preceded the number with a single apostrophe (’) before typing the number. This is a trick savvy users use to force Excel to keep the zeros at the beginning of your phone number or bank account number. Unfortunately, it forces Excel to treat the cell entry as a text and align it to the left.
+
+Out of these three ways of making a number show as aligned to the left, only the first one leaves the number intact. The other ways transform the number to text and will give you issues when you include them in calculations that normally would work on numbers.
+
+Now you have an idea of how useful an understanding of the default ways Excel treat the different data types can be in your day to day use of Excel.
