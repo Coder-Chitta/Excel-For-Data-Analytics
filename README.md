@@ -139,9 +139,9 @@ These are some additional items in Excel that can help you work efficiently and 
 - In Excel 2019 and Microsoft 365, there are 1,048,576 rows and 32,767 columns.
 - In older versions of Excel, such as Excel 97-2003, the number of rows is limited to 65,536 and the number of columns is limited to 256.
 
-### Different Data Types in Excel:
+## Different Data Types in Excel:
 
-##### Excel recognizes 4 different data types: Text, Number, Boolean & Formula. Anything you type into Excel will fall under one of these.
+#### Excel recognizes 4 different data types: Text, Number, Boolean & Formula. Anything you type into Excel will fall under one of these.
 
 - Text: 
 Whenever you type alphabets, or a mix of alphabets and numbers into Excel (without proceeding with =), everything is recognized as text. By default, Excel aligns text
