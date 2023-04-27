@@ -186,3 +186,75 @@ The practical importance of this is that if you receive a sales report in Excel 
 Out of these three ways of making a number show as aligned to the left, only the first one leaves the number intact. The other ways transform the number to text and will give you issues when you include them in calculations that normally would work on numbers.
 
 Now you have an idea of how useful an understanding of the default ways Excel treat the different data types can be in your day to day use of Excel.
+
+### NAVIGATING IN A FILE  
+
+| Shortcut | Action |
+| -------- | ------ |
+| Arrow Keys | Move one cell to the right, left, up or down |
+| Tab | Move once cell to the right |
+| Ctrl+Home | To beginning file |
+| Ctrl+End | To end of typed information |
+| Home | Beginning of a line |
+| End | End of a line |
+| Page Down | Down one screen |
+| Page Up | Up one screen |
+| F5 | To a specific page |
+| Scroll bars | Appear at the right and on the bottom of the screen. You may click the scroll arrows, drag the scroll box or click the scroll bar to move through the document. |
+
+
+### Typing Text or Number into a Worksheet:
+Generally when you start a new spreadsheet project, the first task is to enter some headings into rows and columns. To type anything into a worksheet you need to make the cell into which you wish to enter the data active. This can be done in a number of ways but the most common is to click in it first before typing.  
+
+### Typing Simple Formulas in a Worksheet:                              
+The whole idea behind Excel is to get it to perform calculations. In order for it to do this you need to type formulas in the worksheet. Usually these formulas reference existing numbers, or even other formulas, already in the worksheet using the cell addresses of these numbers rather than the actual value in them. Formulas must be typed beginning with an equal sign (=). 
+
+### To enter a formula: 
+1. Click the cell pointer on the desired cell and type the formula commencing with = 
+2. Press Enter, an arrow key or Tab to confirm the data entry and to move the cell pointer to another cell 
+
+### To save a new document: 
+1. Click on the File Tab and select Save As 
+2. Locate the storage folder in the Navigation pane 
+3. Type a File name and click on [Save] 
+
+### Filling a Series:                
+A series refers to a sequence of ordered entries in adjacent cells, such as the days of the week or months of the year. The fill technique can be used to create these in a worksheet for you,  reducing the amount of time taken for data entry, and ensuring that the spelling is correct. Excel provides days and months as special built-in series that you can access.
+![alt text](https://www.howtogeek.com/wp-content/uploads/2016/11/09_selecting_series.png?trim=1,1&bg-color=000&pad=1,1)
+![alt text](https://user-images.githubusercontent.com/116349423/234916435-95d5660d-8a16-44a5-9543-4d91835f9756.png)
+
+![alt text](https://user-images.githubusercontent.com/116349423/234915974-94b50f9f-8b45-4803-a49b-acaa4d7c369d.png)
+
+### Inserting and Deleting Worksheets:                      
+Once you’ve decided on a structure for your workbook, you may find that there are some worksheets that can be deleted. Alternatively, you may find that you need additional blank worksheets inserted. However, remember that deletion of worksheets is permanent and can’t be undone using Undo, so always save your workbook before making these changes. 
+
+### To insert a new worksheet into a workbook: 
+Click on the New Sheet icon to the right of the worksheet tabs To delete a worksheet from a workbook: Right click on the worksheet tab, then select Delete 
+
+![alt text](https://user-images.githubusercontent.com/116349423/234917918-35f81ebd-715c-4bf1-a200-dae613a28e77.png)
+
+![alt text](https://user-images.githubusercontent.com/116349423/234918301-ac65eade-b2b7-490e-aeeb-75bf6bd35dbd.png)
+
+### Copying a Worksheet:                      
+Just as you can copy the contents of cells and ranges within a worksheet, you can duplicate worksheets within a workbook. This technique is ideal for replicating layouts. For example, if you have a budget workbook that contains data for several departments, you can create a worksheet for the first department and then copy it to create identical worksheets for other departments. 
+
+### To copy a worksheet: 1. Right-click on the worksheet to copy, then select Move or Copy 2. Click on Create a copy so it appears ticked 3. Click on [OK] 
+
+### Renaming a Worksheet:                      
+By default, Excel names worksheets as Sheet1, Sheet2, Sheet3, etc. These names are fine if you are not planning to share the workbook, but changing these to something more relevant makes it much easier to understand the purpose of a worksheet. You can also adjust the horizontal scroll bar to make room for longer, more meaningful worksheet names. 
+
+### To rename a worksheet: 
+1. Double click on the current name on the worksheet tab 
+2. Type the new name and press Enter  
+
+### Moving or Copying a Sheet to another Workbook:                        
+You can copy worksheets to other workbooks as required. For example, you might need to keep records for six different divisions – rather than send each division the entire set of records, you can copy their worksheet to another workbook and send them their data only. If worksheets exist in the other workbook, you will need to determine the order in which to place the copied worksheet. 
+
+### To copy a sheet to another workbook: 
+1. Right click on the worksheet tab, then click on Move or Copy 
+2. Select either (new book) or the name of another workbook in To book 
+3. Tick Create a copy, then click on [OK] 
+
+![alt text](https://user-images.githubusercontent.com/116349423/234920251-4ab2adbe-6de7-4637-abf5-5c7e9580a157.png)
+
+
