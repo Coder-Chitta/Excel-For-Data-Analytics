@@ -3,6 +3,30 @@
 
 Before Learning Excel Let's Learn Some Basic Things About Excel Workbooks
 
+## Basic Parts of Microsoft Excel Window
+Some parts of the Excel window (such as Ribbon and scroll bars) are standard in most other Microsoft programs. However, other features are more specific to spreadsheets, like the formula bar, worksheet tabs, and name box.
+
+The following are the basic parts of the Microsoft Excel Window:
+
+- Quick Access Toolbar
+- File Tab
+- Title Bar
+- Control Buttons
+- Menu Bar
+- Ribbon/Toolbar
+- Dialog Box Launcher
+- Name Box
+- Formula Bar
+- Scroll Bars
+- Spreadsheet Area
+- Leaf Bar
+- Column Bar
+- Row Bar Cells
+- Cells
+- Status Bar
+- View Buttons
+- Zoom control
+
 ### Worksheets: 
 Worksheets are the primary building blocks of an Excel workbook. Each worksheet consists of a grid of cells arranged in rows and columns. You can add, delete, rename, move, and copy worksheets within a workbook.
 
@@ -57,6 +81,12 @@ The Status Bar is located at the bottom of the Excel window and displays informa
 ### Scroll Bars: 
 The Scroll Bars are located on the right side and bottom of the Worksheet Area and allow you to navigate through the worksheet when the data is too large to fit on the screen.
 
+### Control Buttons:
+Control buttons are the symbols that are present in the upper-right side of the window, enabling us to change the labels, minimize, maximize, share, and close the sheet.
+
+### Menu Bar:
+Under the diskette or save icon or the excel icon (this will depend on the version of the program), labels or bars which enable changing the sheet which is shown. These are the menu bar and contain a File, Insert, Page Layout, Formulas, Data, Review, View, Help, and a Search Bar with a light bulb icon. These menus are divided into subcategories which simplify the distribution of information and analysis of calculations.
+
 These are the different bars in Excel, each serving a specific purpose to help you work efficiently and effectively with your data.
 
 # Here's a brief explanation of some additional items in Excel:
@@ -73,8 +103,18 @@ The Name Box is located to the left of the Formula Bar and displays the name or 
 ### Scroll Bars: 
 The Scroll Bars are located on the right and bottom of the Worksheet Area and allow you to scroll through the worksheet when the data extends beyond the visible area.
 
+###Leaf Bar:
+Leaf bar is present at the bottom of the spreadsheet, which says sheet1 is shown. This sheet bar describes the spreadsheet which is currently being worked on. Using this, we can alternate a number of sheets or add a new one as per our convenience.
+
 ### Navigation Buttons: 
 The Navigation Buttons are located on the bottom-right corner of the Worksheet Area and allow you to quickly move between worksheets in a workbook.
+
+### View Buttons:
+View buttons are a set of three buttons arranged at the left of the Zoom control, close the screen's right-bottom corner. We can see three different kinds of sheet views in Excel using this method.
+
+Normal View: - Normal view displays the Excel page in normal view.
+Page Layout View: - The Page Layout view shows the precise layout of an Excel page it will be printed.
+Page Break View: - This displays page break preview before printing.
 
 ### Sheet Tabs: 
 Sheet Tabs are located at the bottom of the Excel window and display the names of each worksheet in the workbook. You can click on a Sheet Tab to switch between worksheets.
