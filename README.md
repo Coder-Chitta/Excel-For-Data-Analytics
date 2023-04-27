@@ -103,7 +103,7 @@ The Name Box is located to the left of the Formula Bar and displays the name or 
 ### Scroll Bars: 
 The Scroll Bars are located on the right and bottom of the Worksheet Area and allow you to scroll through the worksheet when the data extends beyond the visible area.
 
-###Leaf Bar:
+### Leaf Bar:
 Leaf bar is present at the bottom of the spreadsheet, which says sheet1 is shown. This sheet bar describes the spreadsheet which is currently being worked on. Using this, we can alternate a number of sheets or add a new one as per our convenience.
 
 ### Navigation Buttons: 
