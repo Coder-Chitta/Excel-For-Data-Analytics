@@ -238,7 +238,10 @@ Click on the New Sheet icon to the right of the worksheet tabs To delete a works
 ### Copying a Worksheet:                      
 Just as you can copy the contents of cells and ranges within a worksheet, you can duplicate worksheets within a workbook. This technique is ideal for replicating layouts. For example, if you have a budget workbook that contains data for several departments, you can create a worksheet for the first department and then copy it to create identical worksheets for other departments. 
 
-### To copy a worksheet: 1. Right-click on the worksheet to copy, then select Move or Copy 2. Click on Create a copy so it appears ticked 3. Click on [OK] 
+### To copy a worksheet: 
+1. Right-click on the worksheet to copy, then select Move or Copy 
+2. 2. Click on Create a copy so it appears ticked 
+3. 3. Click on [OK] 
 
 ### Renaming a Worksheet:                      
 By default, Excel names worksheets as Sheet1, Sheet2, Sheet3, etc. These names are fine if you are not planning to share the workbook, but changing these to something more relevant makes it much easier to understand the purpose of a worksheet. You can also adjust the horizontal scroll bar to make room for longer, more meaningful worksheet names. 
