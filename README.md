@@ -220,7 +220,9 @@ The whole idea behind Excel is to get it to perform calculations. In order for i
 
 ### Filling a Series:                
 A series refers to a sequence of ordered entries in adjacent cells, such as the days of the week or months of the year. The fill technique can be used to create these in a worksheet for you,  reducing the amount of time taken for data entry, and ensuring that the spelling is correct. Excel provides days and months as special built-in series that you can access.
+
 ![alt text](https://www.howtogeek.com/wp-content/uploads/2016/11/09_selecting_series.png?trim=1,1&bg-color=000&pad=1,1)
+
 ![alt text](https://user-images.githubusercontent.com/116349423/234916435-95d5660d-8a16-44a5-9543-4d91835f9756.png)
 
 ![alt text](https://user-images.githubusercontent.com/116349423/234915974-94b50f9f-8b45-4803-a49b-acaa4d7c369d.png)
@@ -229,7 +231,7 @@ A series refers to a sequence of ordered entries in adjacent cells, such as the 
 Once you’ve decided on a structure for your workbook, you may find that there are some worksheets that can be deleted. Alternatively, you may find that you need additional blank worksheets inserted. However, remember that deletion of worksheets is permanent and can’t be undone using Undo, so always save your workbook before making these changes. 
 
 ### To insert a new worksheet into a workbook: 
-Click on the New Sheet icon to the right of the worksheet tabs To delete a worksheet from a workbook: Right click on the worksheet tab, then select Delete 
+Click on the New Sheet icon to the right of the worksheet tabs To delete a worksheet from a workbook: Right click on the worksheet tab, then select Delete 
 
 ![alt text](https://user-images.githubusercontent.com/116349423/234917918-35f81ebd-715c-4bf1-a200-dae613a28e77.png)
 
@@ -250,6 +252,8 @@ By default, Excel names worksheets as Sheet1, Sheet2, Sheet3, etc. These names a
 1. Double click on the current name on the worksheet tab 
 2. Type the new name and press Enter  
 
+![alt text](https://www.top-password.com/blog/wp-content/uploads/2017/01/worksheet-rename-menu.png)
+
 ### Moving or Copying a Sheet to another Workbook:                        
 You can copy worksheets to other workbooks as required. For example, you might need to keep records for six different divisions – rather than send each division the entire set of records, you can copy their worksheet to another workbook and send them their data only. If worksheets exist in the other workbook, you will need to determine the order in which to place the copied worksheet. 
 
@@ -259,5 +263,128 @@ You can copy worksheets to other workbooks as required. For example, you might n
 3. Tick Create a copy, then click on [OK] 
 
 ![alt text](https://user-images.githubusercontent.com/116349423/234920251-4ab2adbe-6de7-4637-abf5-5c7e9580a157.png)
+
+### Typing Text or Numbers into a Worksheet:
+Generally when you start a new spreadsheet project, the first task is to enter some headings into rows and columns. To type anything into a worksheet you need to make the cell into which you wish to enter the data active. This can be done in a number of ways but the most common is to click in it first before typing. 
+
+### To enter text:
+1. Click the cell pointer on the desired cell and type the required information
+2. Press , an arrow key or to confirm the data entry and to move the cell pointer to another cell
+
+### To save a new document:
+1. Click on the File Tab and select Save As
+2. Locate the storage folder in the Navigationpane
+3. Type a File name and click on [Save]
+
+![alt text](https://www.tutorialspoint.com/excel/images/save_as.jpg)
+
+### Typing Simple Formulas in a Worksheet:
+The whole idea behind Excel is to get it to perform calculations. In order for it to do this you need to type formulas in the worksheet. Usually these formulas reference existing numbers, or even other formulas, already in the worksheet using the cell addresses of these numbers rather than the actual value in them. Formulas must be typed beginning with an equal sign (=).
+
+### To enter a formula:
+1. Click the cell pointer on the desired cell and type the formula commencing with =
+2. Press , an arrow key or to confirm the data entry and to move the cell pointer to another cell
+
+Operators
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+
+![alt text](https://cdn.educba.com/academy/wp-content/uploads/2020/01/Write-Formula-in-Excel.jpg)
+
+### Changing Worksheet Tab Colours:
+To make it easier for you to distinguish between worksheets, Excel enables you to change the colours of worksheet tabs. This allows you, for example, to quickly distinguish between different financial years, departments or months. The active sheet appears as underlined in a gradient version of the selected colour, while inactive tabs will display a solid colour background.
+
+### To change the colour of a worksheet tab:
+1. Right-click on the worksheet tab to display the shortcut menu
+2. Point to Tab colour to display a palette of colour options
+3. Click on the desired colour Handy to Know…
+
+### Grouping Worksheets:
+Worksheet grouping enables you to make the same change at once to all selected worksheets. This feature is useful in situations where your worksheets have identical layouts or text. For example, if you want to format the heading for multiple worksheets, you simply group the worksheets, make a change to one worksheet and the other worksheets will reflect the change also.
+
+### To group worksheet tabs:
+1. Click on the first worksheet tab
+2. Hold down , then click on the last worksheet tab
+
+### To freeze panes in a worksheet:
+1. Click in the cell below and to the right of the area you want to freeze/unfreeze
+2. Click on the VIEW tab
+3. Click on Freeze Panes in the Window group, then select Freeze Panes
+
+### Selecting Ranges:
+A contiguous range is any group of selected cells that form either a square or a rectangle. A single cell that is selected is also considered to be a range. Ranges can be selected using the mouse, the keyboard or a combination of the two. Once selected, you can use the range for input, or apply formatting, or copy the cells as required.
+
+### To select ranges with the mouse:
+1. Click in the left-most cell of the range
+2. Hold down the key and click in the last cell, Or
+3. Drag the mouse pointer to the bottom right corner of the range
+
+### SELECTING ROWS
+If you want to make changes to an entire row, such as bolding all of the headings in a row or changing the font of all the cell entries, you must first select the row. This is done by clicking on the row header to the left of the row. Remember that any changes you make will apply to every cell in the row all the way across to column XFD, so becareful!
+
+### To select an entire row:
+1. Click on the row header of the row that you want to select
+OR
+1. Click in any cell in the row and press +
+
+### Selecting Columns:
+If you want to make changes to an entire column, such as bolding all of the headings in a column or changing the font of all the cell entries, you must first select the column. This is done by clicking on the column header directly above the column. Remember that any changes you make will apply to every cell in the column all the way down to row 1,048,576!
+
+### To select an entire column:
+1. Click on the column heading of the column that you want to select
+OR
+1. Click in any cell in the column and press + 
+
+### Understanding Formatting:
+In Excel there are always two aspects to a number: how the number presents on the screen (known as formatting) and the underlying value of the number. Take 2% as an example – on the screen it is formatted to appear as a number with a percentage sign, whereas the real value in the cell is .02.
+
+### Number Formatting:
+The Veil Placed Over Numbers All calculations in Excel are performed using numbers – this is only logical. So, when you want to perform a calculation, you type the numbers in various cells, then create formulas to reference those numbers. 
+
+Excel allows you to show these representations using number formatting. With number formatting you change the way a number looks so that it makes immediate sense to the reader of your worksheet. The underlying value of number, however, remains unchanged. For example, instead of showing sales tax in a worksheet as .1 you show it as 10%, to show 12889.95 as currency it would appears $12,889.95 or €12,889.95 (depending upon the currency you are working with), and to show 44104 as a date you show it as 30-Sep-2020 (remember, dates are actually numbers representing the number of days from January 1, 1900).
+
+### Applying General Formatting:
+The Number Format command in the Number group on the HOME tab contains a drop arrow that provides a gallery of the more commonly used number formats. You can apply these formats easily and quickly to a selected cell or range of cells in the worksheet.
+
+### To apply general formatting to numbers:
+1. Select the range to format
+2. Click on the HOME tab, then click on the drop arrow for Number Format in the Number group 
+3. Click on the desired number format
+
+### Changing Fonts:
+The appearance that you choose for your text is referred to as the font or typeface. Font traditionally refers to a combination of typeface, style and size in points (e.g. Arial Bold 12 pt). In Excel 2007, font just refers to the typeface or shape of the letters. Typical classic fonts include Times New Roman, Arial, Century Gothic and Copperplate.
+
+### To apply font formatting:
+1. Select the text
+2. Click on the drop arrow for Font
+3. Point to a font to preview it
+4. Click on the font to apply it
+
+### To change font size:
+1. Select the cell or range that you want to change
+2. Click on the drop arrow of Font Size
+3. Click on the required font size
+
+### Understanding Borders:
+Borders are lines that are placed around the edges of individual cells or ranges. The lines may be thin, thick, solid, dashed, black or coloured, or even double lines. The reason for using borders is that the lines can be used to group together data or indicate totals, or to draw the user’s attention to 
+critical cells that may need special data entry. Here are some examples.
+
+### A Worksheet without and with Borders:
+Borders can be used to apply a structure. Here’s the same worksheet shown without borders and then with borders applied. The use of borders helps to highlight the totals and separate them from the other data.
+
+### To apply a border to a range:
+1. Select the range
+2. Click on the drop arrow for Borders in the Font group on the Home tab
+3. Click on the border option of your choice
+
+### Wraping and Merging Text:
+Microsoft Excel will allow long cell entries to spill across to other adjacent cells to the right as long as those cells are empty. If those cells contain data the spill-over will be chopped off. If you need to place long text entries in a cell you can arrange for Microsoft Excel to wrap the text within the cell and also merge that cell with others to accommodate the longer text entry.
+
+### To wrap text:
+click in the cell to merge and click on the Wrap Text command in the Alignment group on the Home tab
+### To merge text - click on the drop arrow for Merge & Centre in the Alignment group and select Merge Cells
+
 
 
