@@ -384,7 +384,215 @@ Microsoft Excel will allow long cell entries to spill across to other adjacent c
 
 ### To wrap text:
 click in the cell to merge and click on the Wrap Text command in the Alignment group on the Home tab
-### To merge text - click on the drop arrow for Merge & Centre in the Alignment group and select Merge Cells
+
+### To merge text:
+click on the drop arrow for Merge & Centre in the Alignment group and select Merge Cells
+
+
+# Data Cleaning and Preprocessing:
+
+### Sorting:
+Sorting is one of the most frequent task we do in Excel. Sorting lets you re-arrange data in alphabetical order, lowest to highest, highest to lowest, and even by cell color. We are used to having data arranged in a particular order — A to Z, January to December,
+1 to 10, and so on.
+Below is an example of a table that has its records haphazardly arranged. The states are not arranged alphabetically and the months are not in the natural order.
+First, let’s have the data sorted by State alphabetically. Below are the recommended steps to sorting a table. Select the table, go to the Home menu and click on Sort & Filter.
+
+The sorting dialog box comes up.
+
+This dialog box allows you to add more than the default one level of sorting.
+Select “State” in the Sort by box and A to Z in the Order box.
+The result is shown below.
+You can add an extra level of sorting in the sorting dialog box. This would be useful in
+sorting tables like a national population census table. You might want to sort first by state
+(from Abia to Zamfara) and then an extra level of sorting by Local Government Areas. So
+you’ll have a setting similar to the one below
+Next is to sort the months in the natural order we are used to — Jan to Dec. This will
+require a type of sorting called “Left to Right” as against the one we just did, called “Top
+to Bottom”.
+So to get this done, we select the table starting from the first month to the last month. We
+will leave the state field out because we want it to remain in the position it is.
+Then select the row the months are on (Row 2) and set the order to Oldest to Newest.
+Below is the result.
+Filtering
+Filter is one of the Excel power user’s most used tool. It allows you selectively choose
+what you want to view in a table and hide the rest.
+It is very easy to access and can be accessed from three different places in Excel.
+By right clicking and selecting Filter.
+From the Home menu, clicking on Sort & Filter at the right.
+From the Data menu.
+Once you’ve turned on the Filter tool by clicking on it, you will see a dropdown box
+beside the headers of the table.
+Clicking on the dropdown box shows you all the unique items in that field and you can
+select the ones you want to view (hiding the rest). By default, all items are selected so you
+will have to unselect the ones you don’t want to see.
+In the screenshot below, all the pizza items were unselected except the BBQ Chicken
+(meaning only BBQ Chicken was selected).
+Notice the blue row numbers, it is Excel’s way of visually hinting you that some rows
+have been hidden as they did not contain the items we want to view.
+Filtering is that simple and straight forward.
+Data Cleaning
+A lot of times the data you are given to work on in Excel is not in a format usable for you
+and need some cleaning before you can go ahead with the analysis you intended doing on
+it. In most cases you have to manually clean the data and fix whatever issues it has one by
+one before progressing with the original analysis you intended to do on the data.
+Fortunately, Excel has some nifty tools to help you automate some of this data cleaning
+process. The most common ones are,
+Removing duplicates, and
+Text to Columns
+Then we’ll cover a special tool that can help you do a quick categorization of your data:
+Subtotal. Finally we’ll cover Data Validation, an ingenious tool for reducing data entry
+errors in your Excel files.
+Removing Duplicates.
+Occasionally, you will have a table and you’ll want to remove duplicate entries. If it were
+a sales transaction table, you might want to remove the duplicate sales entries. In the
+example below, it is a table of items (Pizzas) and we want to remove the duplicate entries
+leaving only unique entries.
+As illustrated above, you select the entire records first and then go to Data menu, click on
+Remove Duplicates. You will get a confirmatory dialog box. Click on OK.
+You’ll see a result showing the number of duplicate values that were found and the
+number of unique values found. Basically, what Remove Duplicates does is it leaves one
+record of each item and removes all the extra record for that item that it finds.
+When you select a table with more than one field entry, the Remove Duplicates remove
+only the entries that have same value in all the fields as a previous entry except you
+specify which fields to exclude in the search for duplicates.
+In the screenshot below, we excluded Car Sales from the fields to include in the search for
+duplicates. So rows that have the same entries in all the other fields will be deleted except
+one.
+Text to Columns
+There will be times you will have data you would prefer split across multiple columns
+squeezed into one column. This happens a lot when you copy data from an external source
+into Excel or you open an exported data from other business software like CRMs and
+ERPs.
+Excel’s Text to Columns tool is the magic tool for splitting such data entries into multiple
+columns provided there is a recognizable character separating each field or they have fixed
+lengths per field. Below is a simple example for splitting a full name in one column to first
+Name column and last Name field column.
+Delimited is the option to specify that there is a recognizable character separating each
+field. In this example, there is a space separating every first name from the last name.
+Notice how Excel shows a line between the first names and the last names once you select
+the appropriate delimiter (space, in this case). Click on Next and Finish.
+Below is the result. Just as desired.
+Subtotal
+Subtotal is a secret tool for doing a quick analysis of a table in Excel. It breaks the data
+down by categories and creates grouping that shows you different levels of details.
+It is also very easy to use.
+Below is an example where we’ll use it.
+It is a market research data table showing the different car make sold in three different
+auto dealerships.
+We can apply a subtotal to this to see some interesting analysis.
+Select the table, go to Data menu and click on Subtotal. In the dialog box that comes up, in
+the “Add subtotal to” section tick all the fields that have numeric values (except you don’t
+want to see a numeric analysis of them).
+Once you click on OK, you get a result that looks like the following —
+Level 1:
+Level 2:
+Level 3:
+And the best part is that you can remove the subtotal and have your original table data
+back just as it was before. To remove is as easy as clicking the Subtotal again and clicking
+on Remove All.
+See the result below. All the level 1, 2 & 3 groupings gone.
+Data Validation
+This is another secret but powerful tool in Excel. It helps you put in place some error
+check mechanism and can be used by a skilled Excel user to make powerful Excel
+dashboards.
+Let’s see some of the common uses of it.
+The table below is an Employee records table. In it we want to force people to enter just
+departments specified at the left of the table. In fact, we want them to have the easy option
+of seeing a pre-populated dropdown list and pick a department from the list options.
+We select the cells we want to give this functionality, go to Data menu and click on Data
+Validation (sometimes twice).
+You’ll see that there are many options to pick between.
+1. Any Value. This is the default and it is same as not having any data validation. The
+user can enter any value into the cell.
+2. Whole Number. This forces the user to enter only numeric values that are whole
+numbers. If the user enters a text or decimal entry he’ll get an error. This might be
+applicable in an invoice sheet, for the cells that hold the order quantity if you don’t
+sell fraction of your products.
+3. Decimal. This forces the user to enter a whole number or decimal entry. A whole
+number is same as a decimal with zeros after the decimal point. This might be great
+in a financial model sheet, to hold values of growth assumption, exchange rates and
+risk premiums.
+4. List. This is the one we are most interested in. It enables us to limit the cell entries
+to a list of options. We will use this in the example under review.
+5. Date. This forces the user to enter a valid date entry.
+6. Time. This forces the user to enter a valid time entry.
+7. Text Length. This allows the user to enter any value as long as the character length
+is not more than the specified value here. It is good for fields that hold phone
+numbers, maybe you want to limit the entry to the +2348123456789 14 characters
+long entry format.
+8. Custom. Just as the name specifies, you want to limit the cell entry to something
+less conventional and not covered by the other options.
+In this example we are going to use the List option. So let’s select it.
+Once you click the icon on the far right corner of the Source box, select entries to limit the
+users to. In this case we have typed out the list options in cells G2:G6, holding the
+different departments.
+And it’s done.
+The user is forced to choose between the options in the list. He even sees a dropdown
+arrow that expands to a dropdown lists the moment he tries to fill the cell.
+And that is how Data Validation works. When used creatively it can save you from the
+stress of making corrections to forms people filled and can be used in conjunction with
+formulas like VLOOKUP to make a dynamic report and dashboards.
+Data Formatting
+There are some quick tips in Excel that would turn a bland looking data into a nice looking
+one. One of the best tip is to apply a table formatting to the data.
+An example, is taking a table like the one below and turning it in a well formatted one.
+Select the data and go to Home menu, Format as Table. Choose a color theme.
+If you want to email the Excel file to a colleague, you can copy the table and paste in
+Outlook and you’ll have the beautiful looking table in the body of the email. Your
+colleague will have no excuse to give regarding not seeing or acting on the data.
+So what if you needed to print it for your boss.
+Here’s what you get from Print Preview.
+So how can you make Excel print this table on just on paper?
+Very Easy.
+Go to Page Layout menu, and under the Scale to Fit section, set the Width and Height to 1
+page.
+So let’s see the result.
+Goal achieved! But it could have looked better if it had used more space, the space below.
+So we need to try out one more setting and see if it will give us a better result. We will set
+the Orientation to Landscape.
+Let’s view the result.
+Bravo! This is much better!
+What if the boss wanted just January to May data and not the entire table?
+Also very easy.
+Highlight the table from the beginning up to May, leaving out June. So we are highlighting
+just what we want to print.
+Under same Page Layout, Click on Print Area, and select Set Print Area.
+And that’s it! So let’s see the result.
+There we have it, no June data included!
+One more big tip.
+What if you have a big table that will print onto many pages but you want the header to
+repeat on the first row of every page?
+Below is a sample.
+
+Notice that the page two has no header to help you identify what the fields are.
+So here’s how to fix that.
+Still at Page Layout menu, click on the small icon at the bottom right corner of the Sheet
+Options section.
+In the dialog box that comes up, set the Rows to repeat at top
+Select Row 1 that has the headers.
+And that is all!
+So let’s see the result.
+
+Done.
+So these are the basic ways you format your data for printing
+
+
+## Understanding Formulae:
+
+### Functions Overview:
+Functions are simply pre-programmed formulas already provided for you in Excel which can perform calculations covering a wide range of categories including statistics, date and time arithmetic, financial calculations, lists, engineering, and more.Just like normal formulas that you create, functions must start with an equal sign. The equal sign is then followed by the name of the function (usually a descriptive name which indicates the purpose of 
+the function). Most functions also require additional information known as arguments which are supplied to the function in brackets after the function name. 
+### Functions are therefore written as follows:
+=name(arguments)
+The arguments are quite often cell or range references that contain values that can be used in the function. For example, the commonest function is the SUM function which, as its name suggests, is used to sum or add values together. 
+If you wanted to add all of the values in the cells from B10 to D15 you would write this function as: =SUM(B10:D15)
+
+As you can see this is much simpler than writing your own referential formula which would look like: =B10+B11+B12+B13+B14+B15+D10+D11+D12+D13+D14+D15
+Imagine writing and proofing a formula where you had to add 200 cells!
+
+### Typing Functions:
+If you are familiar with the function that you need you can type it into a cell exactly the same way you type any other formula. If you are not sure if Excel has a function or you can’t quite remember how it is written you can use the Insert Function tool on the Formula Bar to assist you. When you click on this tool the Insert Function dialog box will be presented to you which lists the most recently used or common functions and also allows you to search for other functions that you might need.
+The Insert Function dialog box will also type the function out for you and then provide you with a further dialog box to guide you through the process of specifying the arguments that the function needs to perform its calculation.
 
 
 
