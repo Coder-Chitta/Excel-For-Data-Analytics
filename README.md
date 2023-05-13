@@ -510,14 +510,14 @@ The Insert Function dialog box will also type the function out for you and then 
 
 # Day 1 Advanced Excel 
 
-## Excel Statistical Functions
+## Excel Statistical Functions:
 In order to have a cell showing the result of a statistical calculation (like the sum or the average of some other cells), we use what is called a “Function”.
 
 We get the function by clicking a button, or by writing a short code composed of few letters.
 
 Here is a description of the functions learned, with the relevant “function code” appearing at the beginning of each paragraph:
 
-### 1. SUM Function in Excel
+### 1. SUM Function in Excel:
 The SUM is a mathematical function that adds up a range of values. One can use the SUM function to quickly find the total of a set of values, such as company expenses, sales figures, or test scores.
 
 #### The Syntax of the SUM function is:
@@ -531,7 +531,7 @@ It takes a maximum of 255 arguments, and they can be numbers, cell references, c
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/a4cbe6dd-d9e1-45a8-82ca-5b2a7ab6bc24)
 
 
-### 2. MAX Function
+### 2. MAX Function:
 MAX is a mathematical function determining the largest value in a given cell- range. You can use the function to find the highest monthly sales figure, test score, or temperature in a given period.
 
 #### Syntax:
@@ -544,7 +544,7 @@ In Excel 2007 and newer versions, the MAX function can handle a maximum of 255 a
 
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/5e0d361b-4a12-401c-b7f1-5dd78fa94d0c)
 
-### 3. MIN Function
+### 3. MIN Function:
 The Excel MIN function provides the smallest value within a range and is particularly useful in data analysis and decision-making. For instance, finance professionals may use it to identify the lowest price point for a product over a given period.
 
 #### Syntax:
@@ -557,7 +557,7 @@ The MIN function in Excel can support up to 255 arguments in Excel 2007 and late
 
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/9ac28684-3ff2-4658-a500-0d33340ea27a)
 
-### 4. AVERAGE Function in Excel
+### 4. AVERAGE Function in Excel:
 In Excel, the AVERAGE function determines the arithmetic mean of a range of values. The function takes a series of numbers and returns the sum divided by the count of those numbers. It helps users find a company’s average monthly, quarterly, or yearly revenue or expenses. Students can use it to calculate their average grade across multiple subjects.
 
 #### Syntax:
@@ -570,7 +570,7 @@ The function allows up to 255 arguments and ignores text or blank cells.
 
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/7c02b8b7-8f47-48ed-ad77-f7865c67b190)
 
-### 5. Product Function in Excel
+### 5. Product Function in Excel:
 The Product is a mathematical function that multiply a range of values. 
 
 #### The Syntax of the Product function is:
@@ -581,9 +581,9 @@ number2: It marks the second numerical value we want to multiply.
 
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/5644169e-ece0-44a2-baac-21a92a27f563)
 
-### 6. Excel COUNT Function
+### 6. Excel COUNT Function:
 
-#### COUNT Function Syntax
+#### COUNT Function Syntax:
 =COUNT(value1, [value2], …)
 Where ‘value’ can be a single cell (you wouldn’t do this though as I hope you can already count to 1, if not my 2 year old can teach you, or for advanced counting my 5 year old says he can count to infinity!) or, more likely you will enter a range of cells in place of each ‘value’.
 
@@ -595,7 +595,7 @@ Or multiple ranges of non contiguous cells:
 
 There can be up to 30 ‘values’.
 
-#### COUNT Function Rules
+#### COUNT Function Rules:
 - It only counts cells containing numbers
 - It ignores blank cells
 - It ignores cells containing anything but a number
@@ -603,22 +603,22 @@ Ok, that’s 3 ways to say the same thing but it leads me nicely onto the COUNTA
 
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/e31669ba-75f4-449a-857d-2b63788c7716)
 
-### Excel COUNTA Function
+### Excel COUNTA Function:
 Excel’s COUNTA function counts cells that are not empty.
 
 That means it includes error values, like #VALUE!, numbers and blank spaces. I don’t mean blank cells, I mean cells with empty text like for example if you entered a space in a cell then COUNTA would count that cell.
 
 COUNTA doesn’t count empty or blank cells. You need the COUNTBLANK function for that. More on COUNTBLANK below.
 
-#### COUNTA Function Syntax
+#### COUNTA Function Syntax:
 =COUNTA(value1, [value2], …)
 Ditto COUNT function formula examples. That is; the 'value' in the COUNTA function syntax works the same as they do for the COUNT function.
 
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/1ce4bb9b-6918-4c6b-b531-247de8cb5dd4)
 
-### Excel’s COUNTBLANK Function
+### Excel’s COUNTBLANK Function:
 
-#### COUNTBLANK Function Syntax
+#### COUNTBLANK Function Syntax:
 =COUNTBLANK(range)
 You’ll notice that the syntax is ‘range’ and there’s only one of them. This is because unlike COUNT and COUNTA, the COUNTBLANK function cannot handle non-contiguous ranges.
 
@@ -630,11 +630,11 @@ You’ll notice that the syntax is ‘range’ and there’s only one of them. T
 The AutoSum button is available in 2 locations on the Excel ribbon.
 Home tab > Editing group > AutoSum:
 
-### The AutoSum button in Excel
+### The AutoSum button in Excel:
 Formulas tab > Function Library group > AutoSum:
 Another location of the AutoSum button in Excel
 
-### How to AutoSum in Excel
+### How to AutoSum in Excel:
 Whenever you need to sum a single range of cells, whether a column, row or several adjacent columns or rows, you can have Excel AutoSum to automatically make an appropriate SUM formula for you.
 
 #### To use AutoSum in Excel, just follow these 3 easy steps:
@@ -653,12 +653,12 @@ To sum multiple columns or rows at a time, select several cells at the bottom or
 - Now, you can see the calculated total in the cell, and the SUM formula in the formula bar:
 - Press the Enter key to complete the Sum formula.
  
-### Shortcut for Sum in Excel
+### Shortcut for Sum in Excel:
 If you one of those Excel users that prefer working with the keyboard rather than the mouse, you can use the following Excel AutoSum keyboard shortcut to total cells:
 
 - Pressing the Equal Sign key while holding the Alt key inserts a Sum formula in a selected cells(s) exactly like pressing the AutoSum button on the ribbon does, and then you hit the Enter key to complete the formula.
 
-### How to use AutoSum with other functions
+### How to use AutoSum with other functions:
 Apart from adding cells, you can use Excel's AutoSum button to insert other functions, such as:
 
 AVERAGE - to return the average (arithmetic mean) of numbers.
@@ -672,18 +672,18 @@ Using Excel AutoSum to automatically insert formulas other than SUM
 
 If you select More Functions from the AutoSum drop-down list, Microsoft Excel will open the Insert Function dialog box, like it does when you click the Insert Function button on the Formulas tab, or the fx button on the Formula bar.
 
-### How to AutoSum only visible (filtered) cells in Excel
+### How to AutoSum only visible (filtered) cells in Excel:
 You already know how to use AutoSum in Excel to total a column or row. But did you know that you can use it to sum only visible cells in a filtered list?
 
 If your data in organized in an Excel table (which can be easily done by pressing Ctrl + T shortcut), clicking the AutoSum button inserts the SUBTOTAL function that adds only visible cells.
 
-### How to use AutoSum on more than one cell at a time
+### How to use AutoSum on more than one cell at a time:
 If you want to sum values in several columns or rows, select all the cells where you want to insert the Sum formula, and then click the AutoSum button on the ribbon or press the Excel Sum shortcut.
 
 For example, you can select cells A10, B10 and C10, click AutoSum, and total 3 columns at once. As shown in the below screenshot, the values in each of the 3 columns are summed individually:
 Using AutoSum on more than one cell at a time
 
-### How to sum selected cells vertically and horizontally
+### How to sum selected cells vertically and horizontally:
 To total only certain cells in a column, select those cells and click the AutoSum button. This will total the selected cells vertically column-by-column, and place the SUM formula(s) below the selection:
 Total the selected cells vertically column-by-column.
 
@@ -693,7 +693,7 @@ Total the selected cells horizontally row-by-row
 - To sum cells column-by-column and row-by-row, select the cells you want to add, plus one empty row below and one empty column to the right, and Excel will total the selected cells vertically and horizontally:
 Sum the selected cells vertically and horizontally.
 
-### How to copy an AutoSum formula to other cells
+### How to copy an AutoSum formula to other cells:
 Once AutoSum has added a SUM (or other) function in the selected cell, the inserted formula behaves like a normal Excel formula. Consequently, you can copy that formula to other cells in the usual way, for example by dragging the fill handle. For more information, please see How to copy a formula in Excel.
 
 Just keep in mind that Excel's AutoSum uses relative cell references (without $) that adjust to the new formula location based on the relative position of rows and columns.
@@ -702,7 +702,7 @@ For example, you can have AutoSum to insert the following formula in cell A10 to
 
 In most cases, it is exactly what you need. But if you want to copy the formula to another cell without changing the cell references, you'd need to fix the references by adding the $ sign. Please see Why use $ in Excel formulas for full details.
 
-### Excel AutoSum not working
+### Excel AutoSum not working:
 The most common reason for AutoSum not working in Excel is numbers formatted as text. At first sight, those values may look like normal numbers, but Excel regards them as text strings and does not include in calculations.
 
 The most obvious indicators of numbers formatted as text are their default left alignment and little green triangles in top-left corner of the cells. To fix such text-numbers, select all problematic cells, click the warning sign, and then click Convert to Number.
@@ -738,7 +738,7 @@ Once completed, Excel formatting adds the finishing touches, ensuring that the d
 - Using styles (like table styles) can make our data stand out and helps the reader to focus on crucial portions of the worksheet.
 - Conditional formatting is a useful tool for highlighting crucial portions of our worksheet graphically or visibly. These are dynamic tools. The Highlighted region changes as our data changes.
 
-### Benefits of Data Formatting in Excel
+### Benefits of Data Formatting in Excel:
 The following are some of the benefits of Excel data formatting:
 
 - The data appears to be more presentable.
@@ -822,7 +822,7 @@ The selected fill color will appear in the selected cells.
 #### Format Painter:
 If you want to copy formatting from one cell to another, you can use the Format Painter command on the Home tab. When you click the Format Painter, it will copy all of the formatting from the selected cell. You can then click and drag over any cells you want to paste the formatting to.
 
-### Formatting text and numbers
+### Formatting text and numbers:
 One of the most powerful tools in Excel is the ability to apply specific formatting for text and numbers. Instead of displaying all cell content in exactly the same way, you can use formatting to change the appearance of dates, times, decimals, percentages (%), currency ($), and much more.
 
 #### To apply number formatting:
@@ -833,6 +833,83 @@ One of the most powerful tools in Excel is the ability to apply specific formatt
 The selected cells will change to the new formatting style. For some number formats, you can then use the Increase Decimal and Decrease Decimal commands (below the Number Format command) to change the number of decimal places that are displayed.
 
 ![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/e36777c2-04f9-463e-8040-08195d42869a)
+
+## Name Manager:
+The Name Manager is a dialog box in Excel that allows you to create, edit, and delete defined names. These names can be named ranges, named formulas, and named constants. Using named ranges can make formulas easier to read, understand. and maintain Names also provide simple navigation via the Name Box.
+
+To open the Name Manager, navigate to Formulas > Name Manager. Or, you can use the keyboard shortcut Control + F3.
+
+### Names ranges:
+A named range is one or more cells that have been given a name. Using named ranges can make formulas easier to read and understand. They also provide simple navigation via the Name Box.
+
+To quickly create a named range, select the range, then type a name into the name box and hit return. 
+
+![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/73b35d8b-d630-4dbb-9f88-2aa8866d0bfe)
+
+## Paste Special:
+When you copy cell data, there are many ways it can be pasted. Some examples include:
+- Transpose Data: Copy columns to rows or vice versa.
+- Paste Values: Paste the results or values from a formula instead of copying and pasting the formulas themselves.
+- Paste Formats: Copy formatting from a cell or cell range and paste—or apply it elsewhere.
+
+### Transpose Data:
+Transposing data changes columns of copied data to rows, and vice versa.
+- Select a cell range.
+- Click Copy.
+- Click the cell where you want to paste the data.
+- Click the Paste list arrow.
+- To preview a paste option before you commit to it, click the Paste list arrow and hold the mouse over the paste option.
+- Select Transpose.
+
+![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/b3cd6993-ccef-4137-ae2d-2fe230b4d3be)
+
+![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/ad299fdb-e70b-45e6-8cbe-fe5b101a34a2)
+
+
+The selected data is transposed from columns to rows.
+
+### Paste Values:
+You can paste only the values as displayed in the cells, instead of the formulas that are used to calculate those values.
+
+- With a cell containing a value you want to copy selected, click Copy.
+- Click the cell where you want to paste the data.
+- Click the Paste list arrow.
+- Select Values.
+- Paste Values
+
+![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/667432fb-43c0-4ef7-a50e-d8febd5eaf56)
+
+Excel pastes the values of the copied cell into the selected cell.
+
+- Tip:
+Whenever you paste data, the Paste Options Smart Tag appears next to the selected cell. You can also paste values by clicking this tag and selecting a paste option from the list.
+
+### Paste Formats:
+You can also copy and paste cell formatting, applying formats such as a cell’s font, font size, and color to other cells.
+
+- Select the cell that has the format you want to copy.
+- Click the Copy button.
+- Click the cell where you want to paste the format.
+- Click the Paste list arrow.
+- Select Formatting.
+- Paste Formats
+
+![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/c62c4415-3cf7-4266-8a01-f7d0aebb1557)
+
+Excel applies the formatting of the copied cell to the selected cell.
+
+### Advanced Paste Special Commands:
+If the paste commands you’re looking for aren’t available in the Paste menu, you can open the Paste Special dialog box to view advanced paste special commands.
+
+- Copy a cell value.
+- Click the cell where you want to paste the value.
+- Click the Paste list arrow.
+- Select Paste Special.
+- The Paste Special dialog box displays, containing numerous paste options.
+- Select a paste option.
+- Click OK.
+
+![alt text](https://github.com/Coder-Chitta/Excel-For-Data-Analytics/assets/116349423/ad8958fe-9a2c-4abe-a9a5-8d20d539d326)
 
 
 
